@@ -19,7 +19,7 @@ Keterangan :
 - Setiap Server diberikan memory sebesar 128M
 - Client dan Router diberikan memori sebesar 96M
 - Jumlah host pada subnet SIDOARJO 200 Host
-- Jumlah host pada subnet GRESIK 210 Host
+- Jumlah host pada subnet GRESIK 210 Host <br>
 (B) karena kalian telah mempelajari Subnetting dan Routing, Bibah meminta kalian untuk membuat topologi tersebut menggunakan teknik CIDR atau VLSM. Setelah melakukan subnetting, (C) kalian juga diharuskan melakukan routing agar setiap perangkat pada jaringan tersebut dapat terhubung. <br>
 (D) Tugas berikutnya adalah memberikan ip pada subnet SIDOARJO dan GRESIK secara dinamis menggunakan bantuan DHCP SERVER (Selain subnet tersebut menggunakan ip static). Kemudian kalian mengingat bahwa kalian harus setting DHCP RELAY pada router yang menghubungkannya, seperti yang kalian telah pelajari di masa lalu. <br>
 (1) Agar topologi yang kalian buat dapat mengakses keluar, kalian diminta untuk mengkonfigurasi SURABAYA menggunakan iptables, namun Bibah tidak ingin kalian menggunakan MASQUERADE. <br>
