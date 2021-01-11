@@ -16,24 +16,24 @@ Terdapat tiga tahap atau proses yang dilakukan pada sistem ini. Tiga tahan terse
 ### Mendeteksi Plat Kendaraan
 Mendeteksi pelat kendaraan adalah langkah yang pertama kali dilakukan untuk mengenali nomor pelat kendaraan, algoritmanya pun banyak untuk dapat melakukan proses ini dari yang sederahana sampai ribet tergantung dari kondisi atau kasus yang ada. Pada kesempatan kali ini saya akan mencoba untuk mengimplementasikan Contour Detection untuk mengetahui keberadaan objek pelat kendaraan. Prinsip dari algoritma ini adalah dengan mengekstrak kontur yang terdapat pada sebuah citra atau gambar, kontur yang berbentuk dan menyerupai pelat kendaraan yang dipilih sebagai kandidat sebuah pelat kendaraan.
 #### Input Kendaraan 
-- Mobil 1 (Tampak Depan) 
+- Mobil 1 (Tampak Depan) <br>
 ![car3](https://user-images.githubusercontent.com/26424136/104130821-7609e000-53a5-11eb-94ce-3a4008ab9aa4.jpg)
-- Mobil 2 (Tampak Belakang)
+- Mobil 2 (Tampak Belakang) <br>
 ![car4](https://user-images.githubusercontent.com/26424136/104130807-6c807800-53a5-11eb-86be-39fdacabe609.jpg)
 
 Gambar di atas merupakan gambar input yang akan kita gunakan untuk mencoba mendeteksi suatu pelat kendaraan. 
 
 #### Hasil Binerisasi
 Hasil binerisasi ditunjukkan pada gambar di bawah ini
-- Mobil 1 (Tampak Depan) 
+- Mobil 1 (Tampak Depan) <br>
 ![blackwhite](https://user-images.githubusercontent.com/26424136/104130899-e1ec4880-53a5-11eb-9a8a-64bee829ca38.jpg)
-- Mobil 2 (Tampak Belakang)
+- Mobil 2 (Tampak Belakang) <br>
 ![blackwhite](https://user-images.githubusercontent.com/26424136/104130923-09dbac00-53a6-11eb-9703-89769d40fc3a.jpg)
 
 #### Hasil Deteksi Kontur
-- Mobil 1 (Tampak Depan) 
+- Mobil 1 (Tampak Depan) <br>
 ![image](https://user-images.githubusercontent.com/26424136/104130901-e4e73900-53a5-11eb-8c76-a3151a9e7b0c.jpg)
-- Mobil 2 (Tampak Belakang)
+- Mobil 2 (Tampak Belakang) <br>
 ![image](https://user-images.githubusercontent.com/26424136/104130927-0cd69c80-53a6-11eb-8f06-e860bbc7bf65.jpg)
 
 
