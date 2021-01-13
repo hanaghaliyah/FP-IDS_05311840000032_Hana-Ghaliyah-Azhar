@@ -1,4 +1,4 @@
-# Project IDS
+# Final Project IDS
 <b> Sistem Deteksi Intrusi </b> <br>
 ```
 Nama : Hana Ghaliyah Azhar  
