@@ -159,3 +159,4 @@ https://github.com/0d3ng/plate-detection-pi <br>
 https://github.com/alitourani/yolo-license-plate-detection <br>
 https://github.com/pjreddie/darknet <br>
 https://pjreddie.com/darknet/yolo/ <br>
+Download model.weights -> https://drive.google.com/file/d/1vXjIoRWY0aIpYfhj3TnPUGdmJoHnWaOc/edit
