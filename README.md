@@ -7,7 +7,7 @@ Ide  : Sistem Deteksi Plat Kendaraan
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+# Program 1
 ## Mendeteksi Plat Kendaraan
 Mendeteksi pelat kendaraan adalah langkah yang pertama kali dilakukan untuk mengenali nomor pelat kendaraan, algoritmanya pun banyak untuk dapat melakukan proses ini dari yang sederahana sampai ribet tergantung dari kondisi atau kasus yang ada. Pada kesempatan kali ini saya akan mencoba untuk mengimplementasikan Contour Detection untuk mengetahui keberadaan objek pelat kendaraan. Prinsip dari algoritma ini adalah dengan mengekstrak kontur yang terdapat pada sebuah citra atau gambar, kontur yang berbentuk dan menyerupai pelat kendaraan yang dipilih sebagai kandidat sebuah pelat kendaraan.
 
@@ -107,8 +107,8 @@ result = None
     cv2.imwrite(os.path.join(path_slice, file_name), result)
 ```
 ### Program
-#### Input Kendaraan 
-Terdapat pada folder <b>sliced</b>
+#### Input Kendaraan
+Input berupa image yang terdapat pada folder <b>sliced</b>
 - Mobil 1 (Tampak Depan) <br>
 ![car3](https://user-images.githubusercontent.com/26424136/104130821-7609e000-53a5-11eb-94ce-3a4008ab9aa4.jpg)
 - Mobil 2 (Tampak Belakang) <br>
@@ -135,6 +135,12 @@ Hasil binerisasi ditunjukkan pada gambar di bawah ini
 - Mobil 2 (Tampak Belakang) <br>
 ![car4](https://user-images.githubusercontent.com/26424136/104130831-85892900-53a5-11eb-9011-5c962af531c3.jpg)
 
+# Program 2
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Referensi : https://github.com/0d3ng/plate-detection-pi
+### Referensi : 
+https://github.com/0d3ng/plate-detection-pi <br>
+https://github.com/alitourani/yolo-license-plate-detection <br>
+https://github.com/pjreddie/darknet <br>
+https://pjreddie.com/darknet/yolo/ <br>
