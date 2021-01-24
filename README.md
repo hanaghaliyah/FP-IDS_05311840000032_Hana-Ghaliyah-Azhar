@@ -145,7 +145,7 @@ Test on a single video file:
 python object_detection_yolo.py --video=namafile.mp4
 ```
 
-#### Hasil Deteksi Plat
+### Hasil Deteksi Plat
 Output hasil deteksi dalam bentuk video
 ![image](https://user-images.githubusercontent.com/26424136/105636029-b9ca1280-5e98-11eb-8ac8-86bf184c36fc.png)
  
