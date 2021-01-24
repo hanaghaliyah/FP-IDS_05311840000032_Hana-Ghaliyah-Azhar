@@ -7,7 +7,7 @@ Ide  : Sistem Deteksi Plat Kendaraan
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Program 1
+# Program 1 (Image)
 ## Mendeteksi Plat Kendaraan
 Mendeteksi pelat kendaraan adalah langkah yang pertama kali dilakukan untuk mengenali nomor pelat kendaraan, algoritmanya pun banyak untuk dapat melakukan proses ini dari yang sederahana sampai ribet tergantung dari kondisi atau kasus yang ada. Pada kesempatan kali ini saya akan mencoba untuk mengimplementasikan Contour Detection untuk mengetahui keberadaan objek pelat kendaraan. Prinsip dari algoritma ini adalah dengan mengekstrak kontur yang terdapat pada sebuah citra atau gambar, kontur yang berbentuk dan menyerupai pelat kendaraan yang dipilih sebagai kandidat sebuah pelat kendaraan. <br>
 Intrusi : Kendaraan yang tidak ada plat kendaraan
@@ -136,7 +136,7 @@ Hasil binerisasi ditunjukkan pada gambar di bawah ini
 - Mobil 2 (Tampak Belakang) <br>
 ![car4](https://user-images.githubusercontent.com/26424136/104130831-85892900-53a5-11eb-9011-5c962af531c3.jpg)
 
-# Program 2
+# Program 2 (Video)
 Program ini digunakan untuk mendeteksi pelat nomor kendaraan sebagai representasi keberadaan kendaraan dalam sebuah gambar, video dan webcam. Pada program ini saya menggunakan You Only Look Once versi 3 (YOLO v.3) untuk mendeteksi pelat nomor di dalam gambar masukan. Metode ini memiliki keunggulan akurasi tinggi dan kinerja waktu nyata, menurut arsitektur YOLO v.3. Sistem yang disajikan menerima serangkaian gambar kendaraan dan menghasilkan gambar yang diproses dengan menambahkan kotak pembatas yang berisi pelat nomor kendaraan.
 
 ### Cara menjalankan
@@ -145,6 +145,10 @@ Test on a single video file:
 python object_detection_yolo.py --video=namafile.mp4
 ```
 
+#### Hasil Deteksi Plat
+Output hasil deteksi dalam bentuk video
+![image](https://user-images.githubusercontent.com/26424136/105636029-b9ca1280-5e98-11eb-8ac8-86bf184c36fc.png)
+ 
 ### Notifikasi
 Setelah sistem selesai melakukan deteksi plat, maka sistem akan mengirimkan notifikasi melalui Whatsapp dengan bantuan <b>twilio</b>
 ![Screenshot (538)](https://user-images.githubusercontent.com/26424136/105635848-d3b72580-5e97-11eb-98d5-2c8dcf2b72a7.png)
