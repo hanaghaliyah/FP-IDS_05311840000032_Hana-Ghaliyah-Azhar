@@ -7,6 +7,8 @@ Ide         : Sistem Deteksi Plat Kendaraan
 Intruder    : Plat
 ```
 
+[link ke petanikode](https://www.petanikode.com/)
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Program 1 (Image)
 ### Penjelasan Deteksi Plat Kendaraan
