@@ -22,7 +22,7 @@ python object_detection_yolo.py --video=namafile.mp4
 
 ### Hasil Deteksi Plat
 - Output hasil deteksi dalam bentuk image
-![car](https://user-images.githubusercontent.com/26424136/105654431-95018980-5ef0-11eb-955a-7c9143f16f12.jpeg)
+![car _yolo_out_py](https://user-images.githubusercontent.com/26424136/105654782-4c969b80-5ef1-11eb-9900-b1a875ae0334.jpg)
 - Output hasil deteksi dalam bentuk video
 ![image](https://user-images.githubusercontent.com/26424136/105636029-b9ca1280-5e98-11eb-8ac8-86bf184c36fc.png)
  
