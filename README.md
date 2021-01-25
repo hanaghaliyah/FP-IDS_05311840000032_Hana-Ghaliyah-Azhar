@@ -8,8 +8,8 @@ Intruder    : Plat
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Program 1 (Image)
-## Mendeteksi Plat Kendaraan
+## Program 1 (Image)
+### Penjelasan Deteksi Plat Kendaraan
 Mendeteksi pelat kendaraan adalah langkah yang pertama kali dilakukan untuk mengenali nomor pelat kendaraan, algoritmanya pun banyak untuk dapat melakukan proses ini dari yang sederahana sampai ribet tergantung dari kondisi atau kasus yang ada. Pada kesempatan kali ini saya akan mencoba untuk mengimplementasikan Contour Detection untuk mengetahui keberadaan objek pelat kendaraan. Prinsip dari algoritma ini adalah dengan mengekstrak kontur yang terdapat pada sebuah citra atau gambar, kontur yang berbentuk dan menyerupai pelat kendaraan yang dipilih sebagai kandidat sebuah pelat kendaraan. <br>
 
 ### Code Program
@@ -137,7 +137,7 @@ Hasil binerisasi ditunjukkan pada gambar di bawah ini
 ![car4](https://user-images.githubusercontent.com/26424136/104130831-85892900-53a5-11eb-9011-5c962af531c3.jpg)
 
 
-# Program 2 with YoloV3 (Image dan Video)
+## Program 2 with YoloV3 (Image dan Video)
 Program ini digunakan untuk mendeteksi plat kendaraan sebagai representasi keberadaan kendaraan dalam sebuah gambar dan video. Pada program ini saya menggunakan You Only Look Once versi 3 (YOLO v.3) untuk mendeteksi pelat nomor di dalam gambar masukan. Metode ini memiliki keunggulan akurasi tinggi dan kinerja waktu nyata, menurut arsitektur YOLO v.3. Sistem yang disajikan menerima serangkaian gambar kendaraan dan menghasilkan gambar yang diproses dengan menambahkan kotak pembatas yang berisi plat kendaraan. <br> 
 <br>
 Sistem ini menggunakan <b>darknet</b>, darknet merupakan open source neural network framework yang ditulis dalam C dan CUDA serta mendukung komputasi CPU dan GPU. Sistem ini menggunakan <b>komputasi CPU</b> untuk melakukan processing gambar dan video.
@@ -171,6 +171,7 @@ python object_detection_yolo.py --video=namafile.mp4
 Setelah sistem selesai melakukan deteksi plat, maka sistem akan mengirimkan notifikasi melalui Whatsapp dengan bantuan <b>twilio</b>
 ![Screenshot (538)](https://user-images.githubusercontent.com/26424136/105635848-d3b72580-5e97-11eb-98d5-2c8dcf2b72a7.png)
 
+##### NB : Untuk Penjelasan mengenai codingan pada program ini, penjelasannya sudah ada pada file codingan itu sendiri
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Referensi : 
