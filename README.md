@@ -149,7 +149,7 @@ Sistem ini menggunakan <b>darknet</b>, darknet merupakan open source neural netw
 1. Input File berupa Image atau Video. 
 2. Sistem melakukan deteksi.
 3. Sistem menambahkan kotak pembatas yang berisi plat kendaraan.
-4. Sistem melakukan pemindaian kotak pembatas dan memberikan score akurasi dissetiap kotak pembatas pada object plat kendaraan.
+4. Sistem melakukan pemindaian kotak pembatas dan memberikan score akurasi disetiap kotak pembatas pada object plat kendaraan.
 5. Sistem selesai melakukan deteksi.
 6. Sistem mengirimkan notifikasi melalui whatsapp dan memberitahukan bahwa plat telah terdeteksi.
 7. Output file berupa image atau video. Hasil outputnya yaitu pada luar plat terdapat kotak pembatas beserta tingkat akurasi deteksi. 
