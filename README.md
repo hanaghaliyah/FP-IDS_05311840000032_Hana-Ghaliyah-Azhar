@@ -7,7 +7,7 @@ Ide  : Sistem Deteksi Plat Kendaraan
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Program 2
+# Program
 Program ini digunakan untuk mendeteksi pelat nomor kendaraan sebagai representasi keberadaan kendaraan dalam sebuah gambar, video dan webcam. Pada program ini saya menggunakan You Only Look Once versi 3 (YOLO v.3) untuk mendeteksi pelat nomor di dalam gambar masukan. Metode ini memiliki keunggulan akurasi tinggi dan kinerja waktu nyata, menurut arsitektur YOLO v.3. Sistem yang disajikan menerima serangkaian gambar kendaraan dan menghasilkan gambar yang diproses dengan menambahkan kotak pembatas yang berisi pelat nomor kendaraan.
 
 ### Cara menjalankan
