@@ -7,14 +7,15 @@ Ide         : Sistem Deteksi Plat Kendaraan
 Intruder    : Plat
 ```
 
-[link ke petanikode](https://www.petanikode.com/)
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Program 1 (Image)
 ### Penjelasan Deteksi Plat Kendaraan
 Mendeteksi pelat kendaraan adalah langkah yang pertama kali dilakukan untuk mengenali nomor pelat kendaraan, algoritmanya pun banyak untuk dapat melakukan proses ini dari yang sederahana sampai ribet tergantung dari kondisi atau kasus yang ada. Pada kesempatan kali ini saya akan mencoba untuk mengimplementasikan Contour Detection untuk mengetahui keberadaan objek pelat kendaraan. Prinsip dari algoritma ini adalah dengan mengekstrak kontur yang terdapat pada sebuah citra atau gambar, kontur yang berbentuk dan menyerupai pelat kendaraan yang dipilih sebagai kandidat sebuah pelat kendaraan. <br>
 
-### Code Program
+### Full Code
+Full code pada program 1 dapat dilihat [disini](https://github.com/hanaghaliyah/FP-IDS_05311840000032_Hana-Ghaliyah-Azhar/tree/main/plate-detection)
+
+### Penjelasan Code Program
 Install paket-paket yang dibutuhkan yaitu opencv-python. Beberapa yang perlu diimport adalah sebagai berikut
 ```
 import cv2
@@ -152,6 +153,9 @@ Sistem ini menggunakan <b>darknet</b>, darknet merupakan open source neural netw
 5. Sistem selesai melakukan deteksi.
 6. Sistem mengirimkan notifikasi melalui whatsapp dan memberitahukan bahwa plat telah terdeteksi.
 7. Output file berupa image atau video. Hasil outputnya yaitu pada luar plat terdapat kotak pembatas beserta tingkat akurasi deteksi. 
+
+### Full Code
+Full code pada program 2 with yoloV3 dapat dilihat [disini](https://github.com/hanaghaliyah/FP-IDS_05311840000032_Hana-Ghaliyah-Azhar/tree/main/license-plate-detection-yolo) dan didalam file codingan terdapat penjelasannya juga.
 
 ### Cara menjalankan
 Test on a image:
