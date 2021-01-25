@@ -138,11 +138,12 @@ Hasil binerisasi ditunjukkan pada gambar di bawah ini
 
 
 # Program 2 with YoloV3 (Image dan Video)
-Program ini digunakan untuk mendeteksi plat kendaraan sebagai representasi keberadaan kendaraan dalam sebuah gambar dan video. Pada program ini saya menggunakan You Only Look Once versi 3 (YOLO v.3) untuk mendeteksi pelat nomor di dalam gambar masukan. Metode ini memiliki keunggulan akurasi tinggi dan kinerja waktu nyata, menurut arsitektur YOLO v.3. Sistem yang disajikan menerima serangkaian gambar kendaraan dan menghasilkan gambar yang diproses dengan menambahkan kotak pembatas yang berisi plat kendaraan. <br>
-Sistem ini menggunakan <b>darknet</b>, darknet merupakan open source neural network framework yang ditulis dalam C dan CUDA serta mendukung komputasi CPU dan GPU. Sistem ini menggunakan komputasi CPU untuk melakukan processing gambar dan video.
+Program ini digunakan untuk mendeteksi plat kendaraan sebagai representasi keberadaan kendaraan dalam sebuah gambar dan video. Pada program ini saya menggunakan You Only Look Once versi 3 (YOLO v.3) untuk mendeteksi pelat nomor di dalam gambar masukan. Metode ini memiliki keunggulan akurasi tinggi dan kinerja waktu nyata, menurut arsitektur YOLO v.3. Sistem yang disajikan menerima serangkaian gambar kendaraan dan menghasilkan gambar yang diproses dengan menambahkan kotak pembatas yang berisi plat kendaraan. <br> 
+<br>
+Sistem ini menggunakan <b>darknet</b>, darknet merupakan open source neural network framework yang ditulis dalam C dan CUDA serta mendukung komputasi CPU dan GPU. Sistem ini menggunakan <b>komputasi CPU</b> untuk melakukan processing gambar dan video.
 
 ### Algoritma
-1. Input File berupa Image atau Video. <br>
+1. Input File berupa Image atau Video. 
 2. Sistem melakukan deteksi.
 3. Sistem menambahkan kotak pembatas yang berisi plat kendaraan.
 4. Sistem melakukan pemindaian kotak pembatas dan memberikan score akurasi dissetiap kotak pembatas pada object plat kendaraan.
