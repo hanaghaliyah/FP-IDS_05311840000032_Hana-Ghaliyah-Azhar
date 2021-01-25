@@ -1,16 +1,16 @@
 # Final Project IDS
 <b> Sistem Deteksi Intrusi </b> <br>
 ```
-Nama : Hana Ghaliyah Azhar  
-NRP  : 05311840000032
-Ide  : Sistem Deteksi Plat Kendaraan
+Nama        : Hana Ghaliyah Azhar  
+NRP         : 05311840000032
+Ide         : Sistem Deteksi Plat Kendaraan
+Intruder    : Plat
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Program 1 (Image)
 ## Mendeteksi Plat Kendaraan
 Mendeteksi pelat kendaraan adalah langkah yang pertama kali dilakukan untuk mengenali nomor pelat kendaraan, algoritmanya pun banyak untuk dapat melakukan proses ini dari yang sederahana sampai ribet tergantung dari kondisi atau kasus yang ada. Pada kesempatan kali ini saya akan mencoba untuk mengimplementasikan Contour Detection untuk mengetahui keberadaan objek pelat kendaraan. Prinsip dari algoritma ini adalah dengan mengekstrak kontur yang terdapat pada sebuah citra atau gambar, kontur yang berbentuk dan menyerupai pelat kendaraan yang dipilih sebagai kandidat sebuah pelat kendaraan. <br>
-Intrusi : Kendaraan yang tidak ada plat kendaraan
 
 ### Code Program
 Install paket-paket yang dibutuhkan yaitu opencv-python. Beberapa yang perlu diimport adalah sebagai berikut
@@ -140,12 +140,21 @@ Hasil binerisasi ditunjukkan pada gambar di bawah ini
 # Program 2 (Image dan Video)
 Program ini digunakan untuk mendeteksi plat kendaraan sebagai representasi keberadaan kendaraan dalam sebuah gambar dan video. Pada program ini saya menggunakan You Only Look Once versi 3 (YOLO v.3) untuk mendeteksi pelat nomor di dalam gambar masukan. Metode ini memiliki keunggulan akurasi tinggi dan kinerja waktu nyata, menurut arsitektur YOLO v.3. Sistem yang disajikan menerima serangkaian gambar kendaraan dan menghasilkan gambar yang diproses dengan menambahkan kotak pembatas yang berisi plat kendaraan.
 
+### Algoritma
+1. Input File berupa Image atau Video. <br>
+2. Sistem melakukan deteksi.
+3. Sistem menambahkan kotak pembatas yang berisi plat kendaraan.
+4. Sistem melakukan pemindaian kotak pembatas dan memberikan score akurasi dissetiap kotak pembatas pada object plat kendaraan.
+5. Sistem selesai melakukan deteksi.
+6. Sistem mengirimkan notifikasi melalui whatsapp dan memberitahukan bahwa plat telah terdeteksi.
+7. Output file berupa image atau video. Hasil outputnya yaitu pada luar plat terdapat kotak pembatas beserta tingkat akurasi deteksi. 
+
 ### Cara menjalankan
-Test on a single image:
+Test on a image:
 ```
 python object_detection_yolo.py --image=namafile.jpg
 ```
-Test on a single video file:
+Test on a video file:
 ```
 python object_detection_yolo.py --video=namafile.mp4
 ```
